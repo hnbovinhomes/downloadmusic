@@ -1,0 +1,68 @@
+/* Thiết lập font chữ và lề chung */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 85%;
+    margin: 2em;
+    background-color: white;
+}
+
+/* Tiêu đề chính */
+h1 {
+    font-size: 150%;
+    color: teal;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 120%;
+    color: teal;
+}
+
+/* Định dạng Bảng (Tables) cho trang Danh sách / Cart / Cookies */
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-bottom: 1em;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 0.4em 0.8em;
+    text-align: left;
+}
+
+th {
+    font-weight: bold;
+}
+
+/* Định dạng Form và Input */
+label {
+    float: left;
+    width: 8em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"] {
+    width: 15em;
+    margin-bottom: 0.5em;
+}
+
+br {
+    clear: both;
+}
+
+input[type="submit"] {
+    margin-top: 0.5em;
+}
+
+/* Định dạng đường dẫn Liên kết */
+a {
+    color: blue;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: darkblue;
+}
